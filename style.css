@@ -16,7 +16,7 @@ padding:0;
 .co11{
  width:500px;
 float:left;
-  background-color:Pink;
+  background-color:FFFFFF;
   margin:10px;
   
 }
@@ -26,7 +26,7 @@ float:left;
 width:500px;
 float:right;
 text-align: right;
-background-color:Pink;
+background-color:FFFFFF;
   margin:10px;
   line-height: 1.5;
 
@@ -35,7 +35,7 @@ background-color:Pink;
 .co12{
 width:500px;
 float:right;
-background-color:Pink;
+background-color:FFFFFF;
 margin:10px;
 line-height: 1.4;
 }
