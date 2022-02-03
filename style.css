@@ -1,1 +1,44 @@
+body{
+ 
+background-color: #FFFFFF;
+color: #000000;
+font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin:0;
+padding:0;
+}
+
+#container{
+  width:1040px;
+  margin:0 auto;
+}
+
+
+.co11{
+ width:500px;
+float:left;
+  background-color:Pink;
+  margin:10px;
+  
+}
+
+
+.co13{
+width:500px;
+float:right;
+text-align: right;
+background-color:Pink;
+  margin:10px;
+  line-height: 1.5;
+
+}
+
+.co12{
+width:500px;
+float:right;
+background-color:Pink;
+margin:10px;
+line-height: 1.4;
+}
+
+
 
