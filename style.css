@@ -1,18 +1,37 @@
 body {
   background-color:lightgrey;
+  color: black;
+  margin: 10% 20%
 }
 
 h2{
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid black;
 }
 
+.mask-image{
+  -webkit-mask-image: url(https://user-images.githubusercontent.com/98718660/155654750-1f1e869f-40b3-4d11-a012-4812b5c11d3f.png);
+  mask-image: url(https://user-images.githubusercontent.com/98718660/155654750-1f1e869f-40b3-4d11-a012-4812b5c11d3f.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+h3{
+  
+}
+
+h4{
+  border-bottom: 2px solid black;
+}
 
 .header {
   background-color: white;
   font-size: 20px;
   font-family: Helvetica, Arial, sans-serif;
   padding-left: 10px;
+  text-align: center;
 }
 
 .footer {
@@ -26,7 +45,6 @@ h2{
 div {
   border: 1px solid blue;
   font-family: Helvetica, Arial, sans-serif;
-  
   font-size: 15px;
-
+  padding: 10%
 }
