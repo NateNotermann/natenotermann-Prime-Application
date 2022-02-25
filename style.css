@@ -1,50 +1,120 @@
 body {
-  background-color:lightgrey;
+  background-color: lightgrey;
   color: black;
-  margin: 10% 20%
+  margin: 3% 3%
+    
 }
 
-h2{
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
   font-size: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   border-bottom: 2px solid black;
 }
 
-.mask-image{
-  -webkit-mask-image: url(https://user-images.githubusercontent.com/98718660/155654750-1f1e869f-40b3-4d11-a012-4812b5c11d3f.png);
-  mask-image: url(https://user-images.githubusercontent.com/98718660/155654750-1f1e869f-40b3-4d11-a012-4812b5c11d3f.png);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-}
-
-h3{
-  
+h3 {
+  border-bottom: 2px solid black;
+  text-shadow: 1px 1px 2px #1F51FF;
+  text-align: center;
 }
 
 h4{
   border-bottom: 2px solid black;
+  text-shadow: 1px 1px 2px #1F51FF;
+  text-align: center;
 }
 
 .header {
   background-color: white;
-  font-size: 20px;
   font-family: Helvetica, Arial, sans-serif;
-  padding-left: 10px;
-  text-align: center;
+  padding-left: 5%;
+  text-align: left;
+  width: 40%;
+  float: left;
+  height: 150px;
+  margin: 5%;
 }
 
-.footer {
-  background: black;
-  color: white;
-  font-family: Arial;
+.header2 {
+  background-color: white;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-right: 5%;
+  text-align: right;
+  width: 40%;
+  height: 150px;
+  float: right;
+  margin: 5%;
+  
 }
 
+.Account {
+  border: 0px solid blue;
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 5%;
+}
+
+.browser1 {
+  border: 0px solid blue;
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin: 5%;
+  padding: 10%
+}
+
+.browser2 {
+  border: 0px solid blue;
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 5%;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  float: right;
+}
 
 
 div {
-  border: 1px solid blue;
+  border: 0px solid blue;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
-  padding: 10%
+  padding: 5%;
+}
+
+
+.footer {
+  color: black;
+  font-family: Arial;
+  text-align: center;
+  height: 2px;
+  position: fixed;
+  width: 100%;
+  margin: 0px;
+  bottom: 1px;
+  opacity: .2;
+  
 }
